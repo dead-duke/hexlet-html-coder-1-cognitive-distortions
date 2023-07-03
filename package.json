@@ -1,0 +1,20 @@
+{
+  "name": "cognitive-distortions",
+  "version": "0.1.0",
+  "description": "First HTML/CSS Hexlet project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deus-ex-m/layout-designer-project-58"
+  },
+  "main": "",
+  "devDependencies": {
+    "htmlhint": "^m1.1.4",
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-scss": "^4.4.0",
+    "surge": "^0.23.1"
+  },
+  "author": "Artem Terenin",
+  "license": "ISC"
+}
