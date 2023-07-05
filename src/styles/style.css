@@ -13,31 +13,37 @@
 @font-face {
   font-weight: 400;
   font-family: OpenSans;
-  src: url(../fonts/Open-Sans/OpenSans-Regular.ttf);
+  src: url("../fonts/Open-Sans/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: OpenSans;
-  src: url(../fonts/Open-Sans/OpenSans-Bold.ttf);
+  src: url("../fonts/Open-Sans/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: Neucha;
-  src: url(../fonts/Neucha/Neucha-Regular.ttf);
+  src: url("../fonts/Neucha/Neucha-Regular.ttf");
 }
 
 body {
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
   line-height: 1.2em;
+
+  margin: 0;
 }
 
 h1 {
@@ -52,10 +58,110 @@ h3 {
   font-size: 34px;
 }
 
-section {
-  width: 100%;
-  max-width: 1110px;
+.position-r {
+  position: relative;
+}
+
+.container {
+  position: relative;
+  width: 1110px;
   padding-top: 100px;
   padding-bottom: 100px;
   margin: 0 auto;
+}
+
+.backgroung-img::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-image: url("../img/background.png");
+  opacity: 0.1;
+}
+
+.backgroung-light-color::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+
+  background-color: var(--light);
+}
+
+.main-img {
+  height: 525px;
+
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  z-index: -1;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  flex-basis: 50%;
+}
+
+.flex-dir-col {
+  flex-direction: column;
+}
+
+
+.header-button {
+  display: inline-block;
+  width: 100px;
+  padding: 12px 24px;
+
+  background-color: var(--orange);
+
+  font-weight: 700;
+  color: var(--white);
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-button:hover {
+  background: #ea7600;
+}
+
+
+.margin-t-40 {
+  margin-top: 40px;
+}
+
+.margin-t-185 {
+  margin-top: 185px;
+}
+
+.margin-b-0 {
+  margin-bottom: 0;
+}
+
+.margin-l-30 {
+  margin-left: 30px;
+}
+
+.color-orange {
+  color: var(--orange);
 }
