@@ -96,7 +96,6 @@
 .page {
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 .container {
@@ -391,16 +390,4 @@
 .footer-contacts {
   font-size: 14px;
   color: black;
-}
-
-.test {
-  display: flex;
-  justify-content: center;
-}
-
-.test-no-margin {
-  position: relative;
-  width: 1110px;
-  padding: 100px 0;
-  margin: 0;
 }
