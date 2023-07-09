@@ -121,6 +121,12 @@
   position: relative;
 }
 
+.centred {
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* flex */
 .flex-container {
   display: flex;
