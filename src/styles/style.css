@@ -29,6 +29,7 @@
   src: url("../fonts/Neucha/Neucha-Regular.ttf");
 }
 
+
 /* main */
 .page {
   min-height: 100%;
@@ -129,7 +130,8 @@
 
 .backgroung-color-light-dark {
   background-color: var(--light-dark);
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 
