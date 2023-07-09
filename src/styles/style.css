@@ -129,6 +129,7 @@
 
 .backgroung-color-light-dark {
   background-color: var(--light-dark);
+  margin: 0 auto;
 }
 
 
