@@ -236,10 +236,6 @@
 }
 
 /* video */
-.video-section-container {
-  padding-top: 200px;
-}
-
 .video-section-paragraph {
   margin: 30px 0;
 }
@@ -254,6 +250,10 @@
 
 
 /* navigation section */
+.navigation-section-container {
+  padding-top: 200px;
+}
+
 .navigation {
   flex-wrap: wrap;
   justify-content: space-between;
