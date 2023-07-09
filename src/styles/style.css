@@ -43,6 +43,9 @@
   margin: 0 auto;
 }
 
+.relative {
+  position: relative;
+}
 
 /* background */
 .backgroung-img {
@@ -111,6 +114,7 @@
 /* flex */
 .flex-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .flex-container-column {
@@ -212,8 +216,8 @@
   height: 525px;
 
   position: absolute;
-  top: 55px;
-  right: -110px;
+  top: -45px;
+  right: -270px;
   z-index: -1;
 }
 
@@ -301,7 +305,6 @@
 
 /* content section */
 .image-section-container {
-  box-sizing: border-box;
   margin-bottom: 100px;
 }
 
@@ -389,4 +392,13 @@
 .footer-contacts {
   font-size: 14px;
   color: black;
+}
+
+.padding-100 {
+  padding: 100px 0;
+}
+
+.test-container {
+  width: 1110px;
+  margin: 0 auto;
 }
