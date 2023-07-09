@@ -399,5 +399,8 @@
 }
 
 .test-no-margin {
+  position: relative;
+  width: 1110px;
+  padding: 100px 0;
   margin: 0;
 }
