@@ -392,3 +392,12 @@
   font-size: 14px;
   color: black;
 }
+
+.test {
+  display: flex;
+  justify-content: center;
+}
+
+.test-no-margin {
+  margin: 0;
+}
