@@ -29,7 +29,6 @@
   src: url("../fonts/Neucha/Neucha-Regular.ttf");
 }
 
-
 /* main */
 .page {
   margin: 0;
@@ -110,7 +109,6 @@
   background-color: var(--light-dark);
 }
 
-
 /* flex */
 .flex-container {
   display: flex;
@@ -132,7 +130,6 @@
 .flex-item-fill {
   flex-grow: 1;
 }
-
 
 /* text */
 .text {
@@ -186,7 +183,6 @@
   color: var(--blue);
 }
 
-
 /* title */
 .title {
   font-family: Neucha, sans-serif;
@@ -205,7 +201,6 @@
 .title-fotter-margin {
   margin: 55px 0 55px 55px;
 }
-
 
 /* header */
 .header-paragraph {
@@ -251,7 +246,6 @@
   position: relative;
   margin-bottom: -200px;
 }
-
 
 /* navigation section */
 .navigation-section-container {
@@ -301,7 +295,6 @@
 
   margin: 0 0 40px;
 }
-
 
 /* content section */
 .image-section-container {
