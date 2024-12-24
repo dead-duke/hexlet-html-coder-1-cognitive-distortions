@@ -1,4 +1,5 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/dead-duke/hexlet-html-coder-1-cognitive-distortions/workflows/hexlet-check/badge.svg)](https://github.com/dead-duke/hexlet-html-coder-1-cognitive-distortions/actions)
+# Hexlet: "Cognitive distortions"
 
-[Deployed site](http://cognitive-distortions.dead-duke.surge.sh)
+[![hexlet-check](https://github.com/grim-vagabond/hexlet-html-coder-1-cognitive-distortions/actions/workflows/hexlet-check.yml/badge.svg?branch=main)](https://github.com/grim-vagabond/hexlet-html-coder-1-cognitive-distortions/actions/workflows/hexlet-check.yml)
+
+[Deployed site](http://hexlet-html-coder-1-cognitive-distortions.surge.sh)
