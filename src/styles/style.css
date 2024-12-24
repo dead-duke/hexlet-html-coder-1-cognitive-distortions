@@ -276,8 +276,7 @@ h2 {
 }
 /* navigation section */
 .navigation-section-container {
-  position: relative;
-  top: 100px;
+  padding-top: 100px;
 }
 
 .navigation {
