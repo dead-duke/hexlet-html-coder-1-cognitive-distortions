@@ -259,14 +259,18 @@ h2 {
 }
 
 .video {
+  display: flex;
+  justify-content: center;
   border: none;
-  display: block;
-  margin: 0 auto;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: relative;
   margin-bottom: -200px;
 }
 
+.video > img {
+  width: 919px;
+  height: 517px;
+}
 /* navigation section */
 .navigation-section-container {
   padding-top: 200px;
