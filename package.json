@@ -4,7 +4,7 @@
   "description": "First HTML/CSS Hexlet project",
   "repository": {
     "type": "git",
-    "url": "https://github.com/grim-vagabond/hexlet-html-coder-1-cognitive-distortions"
+    "url": "https://github.com/dead-duke/hexlet-html-coder-1-cognitive-distortions"
   },
   "main": "",
   "devDependencies": {
